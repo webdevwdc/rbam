@@ -1,0 +1,23 @@
+.member {
+    display: inline;
+    font-size: 15px;
+    padding-left: 0;
+}
+.member > a{
+color:#FFF;
+}
+.directory{
+	margin-bottom: 40px;
+}
+address.add {
+    margin-bottom: 5px;
+
+    }
+
+    ul.list-unstyled.results-members-list > li {
+    padding: 0 0 25px;
+    margin: 0 0 25px;
+    border-bottom: 1px solid #eee;
+}
+
+ul.list-unstyled.results-members-list > li .directory{margin-bottom: 0;}

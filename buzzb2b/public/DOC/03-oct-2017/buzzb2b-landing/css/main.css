@@ -1,0 +1,236 @@
+body,html{width: 100%; height: 100%; margin: 0; padding: 0; font-family: 'Lato', sans-serif; font-size: 12px;}
+.navbar-default {
+    background-color: #f63339 !important;
+    border-color: #f63339 !important;
+}
+.navbar-nav>li>a {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.prosper-navbar .navbar-top-link {
+    font-size: 20px;
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a{color: #ffffff;}
+.prosper-navbar .navbar-top-link span.link-name {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover{color: #ffffff;}
+.prosper-navbar .navbar-top-link span.glyphicon {
+    top: 5px;
+}
+.prosper-page-home .tile-list-component .landing-lead {
+    text-align: center;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+.prosper-page-home .tile-list-component {
+    padding-top: 20px;
+}
+.prosper-page-home .tile-list-component .landing-lead {
+    text-align: center;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+.prosper-page-home{margin: 70px 0 0;}
+.prosper-page-home .tile-list-component .tile {
+    vertical-align: top;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    height: 160px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #295fa6;
+    padding: 20px;
+}
+.prosper-page-home .tile-list-component .tile.photo h3 {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 0 0 40px #696053, 0 0 40px #696053, 0 0 40px #696053;
+    margin: 0;
+    position: relative;
+    top: 20px;
+}
+.prosper-page-home .tile-list-component .tile.why-barter {
+    background-image: url(../images/tile-3-md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prosper-page-home .tile-list-component .tile.how-does-it-work {
+    background-image: url(../images/tile-2-md.jpg);
+       background-repeat: no-repeat;
+   background-size: cover;
+}
+.prosper-page-home .tile-list-component .tile.how-will-it-work-for-you {
+    background-image: url(../images/tile-1-md.jpg);
+       background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prosper-page-home .tile-list-component .tile.more-questions {
+    background-image: url(../images/tile-4-md.jpg);
+       background-repeat: no-repeat;
+    background-size: cover;
+}
+.prosper-page-home .subhero.gray-lighter {
+    background-color: #eee;
+    border: 1px solid #eee;
+}
+.prosper-page-home .subhero {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+        margin: 20px 0 0;
+}
+.prosper-page-home .subhero .subhero-header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.prosper-page-home .subhero .readable-text {
+    text-align: left;
+}
+.prosper-page-home .subhero .readable-text p {
+    line-height: 1.55;
+    font-size: 16px;
+    color: #333;
+}
+.prosper-page-home .subhero .exchange-model-icons {
+    text-align: center;
+}
+.prosper-page-home .subhero .exchange-model-icons .glyphicon.big {
+    font-size: 42px;
+    color: #555;
+}
+.prosper-page-home .subhero .panel.panel-225trade .panel-body h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+}
+.prosper-page-home .subhero .panel.panel-225trade .panel-body {
+    padding: 36px 14px;
+}
+.prosper-page-home .subhero .presentation-glyphs {
+    padding-top: 40px;
+}
+.prosper-page-home .subhero .presentation-glyphs .glyphicon {
+    font-size: 160px;
+}
+.prosper-page-home .subhero .subhero-header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.prosper-page-home .subhero .panel.panel-popout .popout-wrapper {
+    position: absolute;
+    left:50%;
+    top: -36px;
+    transform: translate(-50%,0);
+        width: auto;
+    display: table;
+}
+.prosper-page-home .subhero .panel.panel-work .panel-body h4 {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.prosper-page-home .subhero .panel.panel-work .panel-body ul.list-business-types {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.prosper-page-home .subhero .panel.panel-work .panel-body ul.list-business-types li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.prosper-page-home .subhero .panel.panel-popout .popout-wrapper h3 {
+    background-color: #f63339;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    text-shadow: 0 1px 1px #555;
+}
+.prosper-page-home .subhero .panel.panel-work .panel-body {
+    height: 360px;
+    padding-top: 46px;
+}
+.prosper-page-home .subhero .panel.panel-work .panel-body p {
+    line-height: 1.5;
+    font-size: 15px;
+}
+.prosper-page-home .subhero .panel.panel-work .panel-body ul.list-employee-benefits {
+    text-align: left;
+    padding-left: 55px;
+}
+.prosper-page-home .subhero .panel.panel-work .panel-body ul.list-employee-benefits li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.prosper-page-home .subhero .panel.panel-work .panel-body ul.list-employee-benefits li .glyphicon {
+    font-size: 24px;
+    position: relative;
+    top: 5px;
+}
+#how-will-it-work-for-you h1{margin-bottom: 50px;}
+.prosper-page-home .hero {
+    background-color: #295fa6;
+    text-align: center;
+    margin-top: -8px;
+    background-position: center top;
+    background-image: url(../images/wrap-2-lg.jpg);
+    height: 420px;
+    background-repeat: no-repeat;
+}
+.prosper-page-home .hero .hero-video iframe {
+    width: 100%;
+    height: 300px;
+}
+.prosper-page-home .hero .hero-video {
+    margin-top: 40px;
+    background-color: #000;
+    padding: 12px;
+}
+.prosper-page-home .hero p {
+    color: #fff;
+    font-size: 15px;
+}
+.prosper-page-home .hero p a{font-size: 15px;}
+.prosper-page-home .hero h1, .prosper-page-home .hero h1 span p {
+    color: #fff;
+    font-size: 65px;
+    line-height: 65px;
+    margin-bottom: 35px;
+    text-shadow: 0 0 40px #696053, 0 0 40px #696053, 0 0 40px #696053;
+}
+.prosper-page-home .hero h1{margin-top: 113px;}
+
+@media(max-width: 999px){
+   .navbar-header.pull-left {
+    display: table;
+    float: none !important;
+    margin: 0 auto;
+}
+
+}
+@media(max-width: 767px){
+.nav > li {
+    position: relative;
+    display: inline-block;
+}
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.navbar-brand{display: block; height: auto; margin: 0; padding: 0;}
+.navbar-brand img{width: 100%; height: auto;}
+.prosper-page-home {
+    margin: 133px 0 0;
+}
+}

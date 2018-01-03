@@ -1,0 +1,80 @@
+/*
+ * Base structure
+ */
+/* Move down content because we have a fixed navbar that is 50px tall */
+/*
+ * General structure
+ */
+
+.group_inp .form-group label{ width: 48%;}
+.group_inp .form-group input{  display: inline-block; vertical-align: middle; margin: 0 10px;}
+.star{ display: inline-block; color: #f00;}
+.navbar-header img{ width: 33%;}
+.btn{ height: 32px;}
+.btn-search{ height: 46px !important;}
+.btn.green{ background: #059d58;}
+.btn.green:hover,.btn.green:focus,.btn.green:active{ background: #39d08b;}
+.btn-info:hover,.btn-info:active,.btn-info:focus{ background: #ff6268; border-color: #ff6268;}
+
+.loaderdiv{
+	display: none;
+	    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+.loaderdiv >div{     position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;}
+.loaderdiv img{ width: 60%;}
+
+/*==============================20.04.2017========================*/
+.navbar-inner{ margin-bottom: 30px; border: #F63339 1px solid; width: 100%; float: left;}
+
+ul.bwizard-steps-o{ margin: 0 !important;}
+ul.bwizard-steps-o li{ border: none !important; width: 50% !important; text-align: center; float: left !important; }
+
+/* New addition [15-09-2017] */
+#exchange-directory .results-members .results-members-list .member-description p {
+    line-height: 1.29;
+    margin-top: 8px;
+}
+.text-muted {
+    color: #777;
+}
+#exchange-directory .results-members .results-members-list .member-description h1.lead {
+    line-height: 1.15;
+}
+.lead {
+    font-size: 21px;
+}
+.lead {
+    font-size: 16px;
+    font-weight: 300 !important;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+@media (max-width:479px){
+.group_inp .form-group label{ width: 50%;}
+.navbar-header .navbar-brand{ display: inline-block; width: 33%;}
+.navbar-header img{ width: 100%;}
+
+ul.bwizard-steps-o li{ width: 100% !important;}
+
+}
+
+.member {
+    display: inline;
+    font-size: 15px;
+    padding-left: 0;
+    padding: 20px 0;
+    line-height: 20px;
+    float: left;
+}
+.member > a{
+color:#FFF;
+}

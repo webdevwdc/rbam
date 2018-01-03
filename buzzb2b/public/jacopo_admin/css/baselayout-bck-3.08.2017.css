@@ -1,0 +1,128 @@
+/*
+ * Base structure
+ */
+/* Move down content because we have a fixed navbar that is 50px tall */
+/*
+ * General structure
+ */
+body { font-family: 'Roboto'; padding-top: 50px;}
+a { color:#000; outline:none!important;}
+h5 { color: #a3a3a3;} 
+.table { margin-top: 20px; }
+.btn-info.disabled, .btn-info[disabled], fieldset[disabled] .btn-info, .btn-info.disabled:hover, .btn-info[disabled]:hover, fieldset[disabled] .btn-info:hover, .btn-info.disabled:focus, .btn-info[disabled]:focus, fieldset[disabled] .btn-info:focus, .btn-info.disabled:active, .btn-info[disabled]:active, fieldset[disabled] .btn-info:active, .btn-info.disabled.active, .btn-info.active[disabled], fieldset[disabled] .btn-info.active { background:#3a5b5c; border:0;}
+.table i { color:#000; font-size:14px; margin:0 4px;}
+.table i.green { color:#008000; font-size:14px; margin:0 4px;}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info { background:#3a5b5c;}
+.nav-tabs > li.active > a:focus { background:#3a5b5c; color:#fff;}
+.nav > li > a:hover, .nav > li > a:focus, .nav > li > a:hover, .nav > li.active a {
+	background-color: #3a5b5c; border-radius:0; color: #ffffff;
+}
+#myTab .nav > li > a {padding: 10px 19px;}
+.nav-tabs > li > a { color:#000;}
+#myTabContent { -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-color: #eeeeee; border-image: none; border-style: solid; border-width: 6px 1px 1px; padding: 20px; width: 100%;}
+#owner-detail { line-height: 22px; }
+.form-group input[type="file"]{ height:auto;	}
+.input-group-addon { border-radius:0;}
+.pagination>.active>span, .pagination>.active>span:hover{
+    background-color: #ff0036; border: 1px solid #ff0036;
+}
+.navbar {background-color: #f63339;}
+a:hover {color: #4597AF;}
+.panel-info { border-color: #eeeeee; border-radius: 0;}
+.panel-info > .panel-heading { background-color: #ffcc00; border-color: #a3a3a3;  border-radius:0; color: #000; font-family: 'Roboto';}
+.form-control { border-radius:0; box-shadow:none; position:relative;}
+.panel-title { font-family: 'Roboto'!important;}
+.main .panel-body .btn { border-radius:3px;}
+.btn-info { background-color: #f63339; border-color: #f63339; padding: 6px 20px; color: #ffffff; margin-left:5px; }
+.btn-default { border-radius:0;}
+input[type="checkbox"]{width:auto; height:auto;}
+/*
+ * Global add-ons
+ */
+.sub-header {  padding-bottom: 10px; border-bottom: 1px solid #eee; }
+.sidebar{ padding: 0;}
+
+/*
+ * Sidebar
+ */
+@media (min-width: 768px) {
+	.sidebar { position:fixed; top:0;left:0; bottom:0; z-index:1000; display:block; padding:52px 20px 20px; background-color: #3a5b5c; border-right:1px solid #000;}
+	/* Sidebar navigation */
+	.nav-sidebar { /* 20px padding + 1px border */ margin:20px -21px 20px -20px   }
+}
+.nav-sidebar > li > a {  padding-left: 20px; padding-right: 20px; color: #ffffff; border-top:1px solid #1a393a; border-bottom:1px solid #466a6b}
+.nav-sidebar > li:first-child > a { border-top:0;}
+.nav-sidebar li:hover a, .nav-sidebar > .active > a { color: #fff; background-color: #f63339;}
+.navbar-collapse i { color:#fff; position: relative; top: 1px;}
+.nav-sidebar i { margin-right: 17px;  background:#1a393a; padding:5px 6px; text-align: center; width: 31px;}
+
+/*
+ * Main content
+ */
+.main { padding: 40px 20px 20px;}
+.main .page-header { margin-top: 0;}
+
+/*
+ * Placeholder dashboard ideas
+ */
+.placeholders { margin-bottom: 30px; text-align: center;}
+.placeholders h4 { margin-bottom: 0;}
+.placeholder {margin-bottom: 20px;}
+.placeholder img { border-radius: 50%;}
+.navbar-nav.nav.navbar-right { margin: 10px 0;}
+.add_school h4 { font-family: 'Roboto'; font-size:18px;}
+.seacrh_top { position:relative; background: #f5f5f5; border-radius:5px; box-shadow:0 2px 2px #ddd; border: 1px solid #eeeeee; padding: 10px; margin:0 0 20px;}
+.seacrh_top label { display:none;}
+.seacrh_top input[type="text"] { background: #ffffff; box-shadow: none;}
+.seacrh_top .form-group { margin:0;}
+.seacrh_top input[type="submit"]{ position:absolute;  right:0; font-weight:bold; top:0; font-family: 'Open Sans', sans-serif;} 
+.num_rec { color: #1a393a; font-size: 18px; font-weight: 500; padding-top: 30px;}
+.form-group { font-family: 'Open Sans', sans-serif; font-size:14px; position:relative; margin-bottom: 19px}
+.panel-body h4 { margin-bottom:15px; border-bottom: 1px solid #dddddd; font-family: "Roboto"; font-size: 18px; padding-bottom: 10px;}
+.group_1 { width:100%; float:left; margin-bottom:15px;}
+.group_1 input[type="password"] { width:100%; /*float:left;*/ border:1px solid #ccc; height:34px; padding: 6px 12px;}
+.add_school .form-group { float: left; width: 49%;}
+.add_school .form-group:nth-child(2n) {
+	float: right;
+}
+.group_1 select { background:#fff; border:1px solid #cccccc; height:34px; width:100%; /*float:left;*/ padding:5px 10px ;}
+#school_logo {width: 100%; border:1px solid #eeeeee; padding:4px; min-height:35px;}
+.add_school input[type="submit"] { padding:7px 35px;}
+.group_1 .form-group { position:relative; position: relative;  width: 100%; float: left;}
+
+.group_1 .form-group > img { border: 1px solid #eeeeee; height: 65px; position: absolute; right: 0; top: 10px; width: auto;}
+#school-detail , #owner-detail { background: #f9f9f9; font-size: 14px;  padding: 20px;}
+.text-danger { bottom: -16px; font-family: arial; font-size: 12px; font-weight: bold;left: 0; position: absolute;}
+.add_school .form-group:last-child { float:left;}
+.bariol-thin i { margin-right: 5px;}
+.dropdown-menu i { color:#000; font-size:14px;}
+.text-link { color:#ff0000; }
+.text-link:hover { color:#f63339;}
+#location-detail table { margin:0;}
+#permission_block input[type="checkbox"] { float:left; margin-right:12px;}
+#permission_block h3 { border-bottom: 1px solid #eeeeee; font-size: 17px; margin: 10px 0 15px; padding: 0 0 16px;}
+#permission_block { border-top: 1px solid #eeeeee; padding: 9px 16px; }
+.subscribe_list th, .subscribe_list td { font-size:13px;}
+
+.gray_th th { background:#f5f5f5;}
+/*
+ * jQuery validation message class
+ */
+.state-error .form-control {
+    border-color: #db4c4a !important;
+}
+.state-error input, .state-error select, .state-error textarea {
+    background: #f2dede;
+}
+.state-error em {
+    color: #db4c4a !important;
+    margin-top: 5px;
+    display: block;
+}
+.state-success .form-control {
+    border-color: #7edc7f !important;
+}
+.state-success input, .state-success select, .state-success textarea {
+    background: #dff0d8 !important;
+}
+/********************/

@@ -1,0 +1,8 @@
+.member {
+    display: inline;
+    font-size: 15px;
+    padding-left: 0;
+}
+.member > a{
+color:#FFF;
+}
