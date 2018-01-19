@@ -1,0 +1,33 @@
+sheet name : User Administration - 2
+
+1)we created two tables by our own ideas because their structures are not in excel sheet. We create the tables like
+
+1. CREATE TABLE `cxs_resources` (
+	`RESOURCE_ID` BIGINT(20) NOT NULL AUTO_INCREMENT,
+	`RESOURCE_NAME` VARCHAR(40) NULL DEFAULT NULL,
+	PRIMARY KEY (`RESOURCE_ID`)
+)
+ENGINE=MyISAM
+
+
+2. CREATE TABLE `cxs_application_roles` (
+	`APPLICATION_ROLE_ID` BIGINT(20) NOT NULL AUTO_INCREMENT,
+	`ROLE_NAME` VARCHAR(40) NULL DEFAULT NULL,
+	`LAST_UPDATE_DATE` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	PRIMARY KEY (`APPLICATION_ROLE_ID`)
+)
+ENGINE=MyISAM
+
+3. Application Roles (row no. 119) is not required but when entered role start date , role end date both are required ? 
+(i need to elaborate
+ rowno.104)
+
+4. How to link cxs_application_roles and cxs_application_assignments tables. (i need to elaborate
+ rowno.101-106 and 119)
+
+5. Please elaborate
+ rowno. 154&155 rule no.3,4. From where user can edit the records?
+
+6. In Create User Form : Can we set Application Role as dropdown box for master data instead of textbox ?
+
+7. What should display In the Grid User Administration under title 'Active User'(last second column) on page users-administration.html.

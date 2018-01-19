@@ -1,0 +1,20 @@
+Tab : Access Management
+assign-app-adminstrator.php page please differentiate work of the button “Assign” and “Update Selected” 
+
+Tab : Create new Subscribr Popup
+Row no.: 69 CXS_USERS table 
+From this subscriber popup insert only user name,start date and end date data only. Isn’t it? 
+Actually here we have not data for password or resource name and others fields which are required for the table CXS_USERS.
+Row no. 17: MIDDLE_INITIAL field has no link to store data.
+Row no. : 68,70 which data is stored in table CXS_APPLICATION_ASSIGMENTS from Add New Subscribers 
+Row no. 77 still I think its pending but can we store this data in table? If yes in which field?
+What is the work of “View SLA” button.
+
+Tab : Subscriber Administration Data
+Row no. : 39 we have not CXS_APPLICATIONS table instead of it we have SYS_APPLICATIONS which is structured in tab : Access Management row no. 145. 
+Please elaborate this combo box functionality.
+
+Row no. 51 : Please Explain design style of update button functionality. 
+As the row no. 48 says all fields are editable. Can we edit subscriber name and username from here too.
+
+which data display in Monthly Billing Column.

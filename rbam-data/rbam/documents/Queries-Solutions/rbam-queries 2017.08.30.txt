@@ -1,0 +1,24 @@
+Tab : Access Management
+Table: CXS_TA_MODULES – table structure 
+row no. 77
+We think INSERT_PRIV column is not required as per design. Please give us confirmation or explanation for it.
+
+row no. 446 says for merge two tab but as per our last telephonic discussion we just rename the third tab with the name Time Approval Rules. so can we go with our last discussion.
+
+Tab : Personal Aliases
+Row no. 528
+This is a view only region. When we clicked on save button there is no records store from the tab. Isn’t it? We can use table - CXS_AM_PERSONAL_ALIAS just for display record at here?
+
+Tab : Approval Management
+Row no. 537 and 566
+“Move "Allow Preapproval" checkbox to bottom of Approval region.” – but we have not approval region check box. Row no. 566 says remove the check box. We are little bit confuse here. Please explain it. 
+
+Row no. 539
+Please elaborate Approver Name and Approver Type. (CXS_AM_APPROVAL_MGMT.REFERENCE_APPROVER_ID for approver name CXS_AM_APPROVAL_MGMT.APPROVER_TYPE for approver type). Please explain functionality in brief. 
+Please Explain Temporary Approver Name (row no. 606,614,622)
+
+Assign Application Administrators Page :
+We have grid with 8 columns like select,application,user name,first name,last name…..
+ as per row no. 641 
+In dropdown box Application display application list like User Administration, Time Accounting Rules, Time Approval Rules …… (isn’t it) if it is yes then can we create one master table for this?
+This page has grid. So very first time when there is no records in assign application administrators how can we insert users in it.

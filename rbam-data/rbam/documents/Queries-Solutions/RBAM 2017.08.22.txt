@@ -1,0 +1,16 @@
+1.   Couple of changes from the edit grid. I know you are still working on edit grid "select updated" button. But make following changes too when you are at it.
+  
+      - During testing, we concluded that it is not a good idea to change USERNAME once entered and saved.  So User name can not be updated.
+      - Put a find resource popup on the Resource name field. Please do not put drop down list here as list can go into 1000s of records.
+      - When Resource Name changes, Resource ID corresponding to that resource name will be auto-populated from CXS_RESOURCES table.  So, Resource ID too can not be updated.
+      - Start Date and End Date fields need to have Calendar List of value with same date format as we discussed.  When update selected buton is clicked.
+      - Active column needs to have drop down list with two values - "Active" and "Inactive"
+
+
+
+
+
+2.. Change yellow background for required yellow fields to following shade of yellow.  Current yellow is too bright and will make users blind.  
+
+Hex: #fff99c
+Rgb(255,249,156)

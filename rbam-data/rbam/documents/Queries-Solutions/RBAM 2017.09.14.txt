@@ -1,0 +1,2 @@
+on access-management.php we show start date of cxs_users->START_DATE 
+and cxs_users-END_DATE. Is it OK?

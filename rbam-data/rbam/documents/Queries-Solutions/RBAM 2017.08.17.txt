@@ -1,0 +1,96 @@
+
+
+sheet name : User Administration - 2
+
+1)we created two tables by our own ideas because their structures are not in excel sheet. We create the tables like
+
+
+CXS_RESOURCES 
+
+Table:	CXS_RESOURCES				
+					
+LAST_UPDATED		DATE			
+DATE_CREATED		DATE			
+LAST_UPDATED_BY		NUMBER			
+CREATED_BY		NUMBER			
+LAST_SESSION_ID		VARCHAR2(240)			
+RESOURCE_ID		NUMBER			
+FIRST_NAME		VARCHAR2(240)			
+LAST_NAME		VARCHAR2(240)			
+ENTITY_ID		NUMBER		from Org Table	
+DESCRIPTION		VARCHAR2(240)			
+RESOURCE_TYPE		VARCHAR2(100)			
+CONTRACTOR_TYPE_FLAG		VARCHAR2(100)			
+PARTY_ID		NUMBER			
+CONTRACT_ID		NUMBER			
+CONTRACT_ID		NUMBER			
+RBAC_ID		NUMBER			
+SUPREVISOR_ID		NUMBER			
+JOB_CLASSIFICATION		VARCHAR2(240)		From Classification Module	
+START _DATE_ACTIVE		DATE			
+END_DATE_ACTIVE		DATE			
+
+
+
+    2. CREATE TABLE `cxs_application_roles` (
+        `APPLICATION_ROLE_ID` BIGINT(20) NOT NULL AUTO_INCREMENT,
+        `ROLE_NAME` VARCHAR(40) NULL DEFAULT NULL,
+DATE_CREATED		DATE			
+LAST_UPDATED_BY		NUMBER			
+CREATED_BY		NUMBER		
+        `LAST_UPDATE_DATE` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        PRIMARY KEY (`APPLICATION_ROLE_ID`)
+        )
+        ENGINE=MyISAM
+
+
+2) Application Roles (row no. 119) is not required but when entered role start date , role end date both are required ? 
+-- START_DATE is mandatory
+-- END_DATE is not mandatory
+-- Every date field must have a calendar popup
+-- Date format must be Day, Month, Date and Year
+-- All Mandatory fields should be required yellow
+(i need to elaborate rowno.104)
+
+3) How to link cxs_application_roles and cxs_application_assignments tables. (i need to elaborate
+APPLICATION_ROLE_ID
+
+rowno.101-106 and 119)
+
+4) Please elaborate
+ rowno. 154&155 rule no.3,4. From where user can edit the records?
+
+-- User can edit records in data grid only.
+-- Only checked, selected rows can be edited only.
+-- When records are checked, then user will click Update Selected button
+-- When that button is clicked, selected records will be changed to updateable and all columns can be updated.
+-- When records are in update mode the background if each data grid cell for selected record will turn white.
+-- Once update are made, save button will save the record into database.
+-- For every update, system must update following columns and these columns are visible using eye icon.
+
+-- CREATED BY - the user_id value of the username who is logged in
+-- LAST_UPDATED BY - the user_id value of the username who will update.
+-- CREATION_DATE - system date and time on the server
+-- LAST_UPDATE_DATE - system date and time on the server.
+
+Please note that,  when create user is created for the first time, created_By and last_updated_By user will be same. creation_Date and last_update_date will also be the same. This is because record is inserted for the first time.
+
+However, during update, only LAST_UPDATE_DATE and LAST_UPDATED_BY should change. CREATION_dATE  and CREATED_bY  should not change.
+
+5) In Create User Form : Can we set Application Role as dropdown box for master data instead of textbox ? Yes, please. Dropbox.
+
+6) What should display In the Grid User Administration under title 'Active User'(last second column) on page users-administration.html.
+
+Possible Values are "Active" and "Inactive".
+
+If end_Date in CXS_USERS is less than system date  that means user is Inactive. Otherwise it is active.
+
+
+
+
+
+Check below links for Grid
+
+
+http://www.editablegrid.net/en/faq
+http://www.apphp.com/php-datagrid/index.php?page=examples
